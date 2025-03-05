@@ -1,0 +1,6 @@
+# Here the values a,b are parameters
+def sum(a,b):
+  print(a+b)
+  
+# Here the values 1,2 are arguments
+print(sum(1,2))
