@@ -77,3 +77,59 @@ for img in soup.find_all("img"):
 # Save the modified HTML to a new file
 with open("modified.html", "w", encoding="utf-8") as modified_file:
     modified_file.write(str(soup))
+
+# OUTPUT
+    
+# Page Title: Sample Web Page
+# Link: https://example.com
+# Paragraph: This is a paragraph with some example link.
+# Paragraph: Another paragraph inside a div.
+# Paragraph: Content inside a special div with ID.
+# Row Data: []
+# Row Data: ['Alice', '25']
+# Row Data: ['Bob', '30']
+# Div Content: 
+# Another paragraph inside a div.
+
+# Special Div Content: 
+# Content inside a special div with ID.
+
+# Body Content: 
+# Welcome to Web Scraping
+# This is a paragraph with some example link.
+
+# Another paragraph inside a div.
+
+
+# Content inside a special div with ID.
+
+
+
+# Name
+# Age
+
+
+# Alice
+# 25
+
+
+# Bob
+# 30
+
+
+
+
+
+
+
+
+
+
+# Image Source: image1.jpg
+# Image Source: image2.jpg
+# Meta Description: This is a sample HTML page for web scraping.
+# Title via CSS Selector: Sample Web Page
+# Form Action: submit.php
+# Input Field: username
+# Input Field: password
+# Input Field: None
