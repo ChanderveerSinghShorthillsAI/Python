@@ -44,5 +44,5 @@ try:
 
 
 finally:
-    # Step 7: Close the browser
+    # Step 5: Close the browser
     driver.quit()
